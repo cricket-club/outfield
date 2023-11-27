@@ -87,13 +87,13 @@ a:hover,
   color: #fff;
 }
 
-.section-heading h2:after {
+.section-heading i:after {
   background: #d2b356;
   content: "";
   display: block;
   width: 30px;
   height: 5px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .text-center .section-heading h2:after {
@@ -158,7 +158,7 @@ body {
 
 #banner h1 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
-  font-size: 62px;
+  font-size: 52px;
   line-height: 60px;
   font-weight: 800;
   color: #111;
@@ -166,8 +166,8 @@ body {
 
 #banner h2 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 500;
   color: #111;
 }
 
@@ -176,7 +176,7 @@ body {
 .section-title {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: 800;
   color: #111;
 }
 
@@ -211,8 +211,8 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
-  font-size: 34px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 500;
   color: #111;
 }
 

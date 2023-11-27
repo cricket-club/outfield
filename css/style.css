@@ -331,7 +331,7 @@ section {
 /* --------- 2.1 Header --------- */
 
 #header {
-  height: 71px !important;
+  height: 84px !important;
   overflow: visible;
   z-index: 9999;
   width: 100%;
@@ -360,9 +360,8 @@ section {
 
 #logo {
   float: left;
-  height: 700px;
+  height: 88px;
   line-height: 66px;
-  margin-right: 5px;
 }
 
 #logo h1,
@@ -383,9 +382,8 @@ section {
 }
 
 #logo img {
-  max-height: 22px;
+  height: 100%;
   vertical-align: middle;
-  margin-right: 15px;
 }
 
 #navigation-logo {
@@ -410,7 +408,7 @@ section {
 
 .button {
   font-size: 16px;
-  margin: 35px 0;
+  margin: 10px 0 10px 0;
   padding: 11px 16px;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -714,10 +712,6 @@ nav#nav-mobile a:hover {
   display: none;
 }
 
-#header .social-icons {
-  margin-top: 27px;
-}
-
 /* --------- 2.6 Images ---------- */
 
 /*Alignment*/
@@ -749,11 +743,7 @@ a img:hover {
 /*------------------------------------------------------------------------------------------*/
 
 h1 {
-  padding: 20px 0;
-}
-
-h2 {
-  padding: 14px 0;
+  padding: 4px 0 10px 0;
 }
 
 h3 {
@@ -818,16 +808,12 @@ h6 {
   padding-bottom: 100px;
 }
 
-#banner h1 {
-  padding-top: 5%;
-}
-
 #banner .section-heading:before {
   content: "";
   display: block;
   width: 30px;
   height: 5px;
-  margin-top: 30px;
+  margin-top: 14px;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -942,6 +928,16 @@ h6 {
 
 .introduction img.featured {
   padding: 55px 0 0 0;
+}
+
+.section-heading .section-title::after {
+  background: #d2b356;
+  content: "";
+  display: flex;
+  margin: auto;
+  width: 40%;
+  height: 5px;
+  margin-top: 14px;
 }
 
 /* --------- 6.2 Features ---------- */
