@@ -16,29 +16,29 @@ body {
 
 a,
 .la-ball-triangle-path {
-  color: #d2b356;
+  color: #092459;
 }
 
 a:hover,
 #header.nav-solid nav a:hover {
-  color: #d2b356;
+  color: #092459;
 }
 
 /* Default Icon Color */
 
 .icon i {
-  color: #d2b356;
+  color: #092459;
 }
 
 /* Border Color */
 
 #banner .section-heading:before,
 .testimonial.classic footer:before {
-  background: #d2b356;
+  background: #092459;
 }
 
 .pricing-block-content:hover {
-  border-color: #d2b356;
+  border-color: #092459;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -64,8 +64,8 @@ a:hover,
 /* Navigation Active State */
 
 #header.nav-solid .active {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #092459;
+  border-color: #092459;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -76,7 +76,7 @@ a:hover,
 
 .primary-color,
 .featured .pricing {
-  background-color: #d2b356;
+  background-color: #092459;
 }
 
 .primary-color,
@@ -88,12 +88,12 @@ a:hover,
 }
 
 .section-heading i:after {
-  background: #d2b356;
+  background: #092459;
   content: "";
   display: block;
   width: 30px;
   height: 5px;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 .text-center .section-heading h2:after {
@@ -271,8 +271,8 @@ input[type="submit"] {
 
 .button:hover,
 input[type="submit"]:hover {
-  border-color: #d2b356;
-  color: #d2b356;
+  border-color: #092459;
+  color: #092459;
 }
 
 /* ----------Banner Buttons---------- */
@@ -294,8 +294,8 @@ input[type="submit"]:hover {
 /* Button Hover Color */
 
 #banner .button:hover {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #092459;
+  border-color: #092459;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -303,18 +303,22 @@ input[type="submit"]:hover {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer,
-#landing-footer p,
-#landing-footer a {
+#landing-footer p {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
-  font-size: 12px;
-  font-weight: normal;
-  color: #999;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+#landing-footer a {
+  text-decoration: underline;
+  color: #ff9877;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-  color: #999;
+  color: #000;
 }
 
 .container,
@@ -384,23 +388,4 @@ input[type="submit"]:hover {
 
 .col {
   flex: 1 0 0%;
-}
-
-.row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
-}
-
-.row > * {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
 }
