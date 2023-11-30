@@ -560,7 +560,7 @@ section {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #header.nav-solid .social-icons a:hover {
@@ -2244,10 +2244,6 @@ blockquote {
   /*-----------------Typography-----------------*/
   h1 {
     font-size: 38px;
-  }
-
-  #banner h1 {
-    font-size: 48px;
   }
 
   /* Hide Elements */

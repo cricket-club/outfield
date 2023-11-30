@@ -58,7 +58,7 @@ a:hover,
 #header.nav-solid a,
 #header.nav-solid i,
 #nav-mobile ul li a {
-  color: #333;
+  color: #000;
 }
 
 /* Navigation Active State */
@@ -136,29 +136,10 @@ body {
   color: #111;
 }
 
-/* Logo, if you are using Fonts as Logo and not image
-
-#logo h1 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
-
-#logo h2 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
-
-*/
-
 /* Banner Typography */
 
 #banner h1 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
-  font-size: 52px;
   line-height: 60px;
   font-weight: 800;
   color: #111;
@@ -211,7 +192,6 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
-  font-size: 24px;
   font-weight: 500;
   color: #111;
 }
