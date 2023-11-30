@@ -637,6 +637,7 @@ nav#nav-mobile ul {
   display: none;
   list-style-type: none;
   position: absolute;
+  top: 12px;
   left: 0;
   right: 0;
   margin-left: -20px;
@@ -1057,6 +1058,12 @@ blockquote {
  * MIT Licensed.
 **/
 @media all {
+  #banner {
+    background: url("../images/banner-images/banner-image-1.jpg") no-repeat left
+      top;
+    background-size: cover;
+  }
+
   .featherlight {
     display: none;
 
@@ -1286,6 +1293,11 @@ blockquote {
     left: 85%;
   }
 
+  #banner {
+    background: url("../images/banner-images/banner-image-1.jpg") no-repeat;
+    background-position: bottom -200px right -280px;
+    background-size: cover;
+  }
   .featherlight-previous {
     left: 10px;
     right: 85%;
@@ -2355,6 +2367,12 @@ blockquote {
   #wrapper {
     margin: 0;
     padding: 0;
+  }
+
+  #banner {
+    background: url("../images/banner-images/banner-image-1.jpg") no-repeat
+      center top;
+    background-size: cover;
   }
 
   .page-border {
